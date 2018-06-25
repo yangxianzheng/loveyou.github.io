@@ -42,6 +42,7 @@ a {
     /*将所有超链接变成块级元素block(超链接默认的显示方式是线级元素inline)*/
     display:block;
     color: red;
+    text-decoration:none;
 }
 
 footer {
@@ -147,12 +148,12 @@ p{
         
     }
     .col{
-        flex-basis: 20%;
+        flex-basis: 10%;
         flex-grow: 1;
         margin: 0 1em;
         display: flex;
         flex-direction: column;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid rgba(0,0,0,0);
         
     }

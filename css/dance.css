@@ -12,7 +12,8 @@
 ==================================== */
 .main-header {
     text-align: center;
-    background-color: aqua;
+    background-color: white;
+    height: 50px;
 }
 .logo {
     margin: 0;  /*重置logo的外边距*/
@@ -36,4 +37,25 @@
     background-color:blue;
     transition: .3s;
     text-shadow: 1px 1px 1px black;
+}
+
+a {
+    text-decoration:none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.banner {
+    background: url('../images/lovers.jpeg') center center;
+    background-size: cover;
+    height: 1500px;
+    
+}
+
+footer h1 {
+    text-align: center;
+    background-color: pink;
+    height: 60px;
 }
